@@ -6,7 +6,6 @@ try {
   // Get the JSON webhook payload for the event that triggered the workflow
   // still dev mode
   const payload = JSON.stringify(github.context.payload, undefined, 2);
-  console.log(`The event payload: ${payload}`);
   require("child_process").execSync(
     `git config --global user.email "zeon@saahild.com"`
   );
