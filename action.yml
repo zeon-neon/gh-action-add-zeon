@@ -1,0 +1,8 @@
+name: 'Zeon - Init Commiter info'
+description: 'Greet someone and record the time'
+outputs:
+  ok: # id of output
+    description: 'if it was ok'
+runs:
+  using: 'node20'
+  main: 'index.js'
